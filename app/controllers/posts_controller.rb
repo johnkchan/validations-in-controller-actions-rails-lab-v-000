@@ -13,7 +13,7 @@ class PostsController < ApplicationController
       @post.save
       redirect_to post_path(@post)
     else
-      render :
+      render :edit
     end
   end
 
